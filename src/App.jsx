@@ -1,4 +1,4 @@
-import { Header, Intro } from "./components"
+import { Header, Intro, Quote } from "./components"
 function App() {
   return (
     <>
@@ -6,6 +6,7 @@ function App() {
       <div className="w-screen border-2 border-white lg:w-5/6">
         <Header />
         <Intro />
+        <Quote />
       </div>
       <div className="w-44 border-2 border-white hidden lg:block"></div>
     </>

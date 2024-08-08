@@ -2,8 +2,7 @@ import React from "react";
 export default function Intro() {
     return (
         <div className="w-full flex flex-col justify-evenly items-center mt-20 lg:flex-row">
-            <div className="">
-                {/* <img src="src/components/Intro/images/back-square.svg" alt="" width={200} className="" /> */}
+            <div>
                 <img src="src/components/Intro/images/bg-portfolioimage.jpg" alt="bimage" className="rounded-full mx-2 w-[300px] lg:w-[500px]" />
             </div>
             <div>
