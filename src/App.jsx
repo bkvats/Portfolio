@@ -1,4 +1,4 @@
-import { Header, Intro, Quote } from "./components"
+import { Header, Intro, ProjectCard, Quote } from "./components"
 function App() {
   return (
     <>
@@ -7,6 +7,7 @@ function App() {
         <Header />
         <Intro />
         <Quote />
+        <ProjectCard imgUrl={"src/components/ProjectCard/images/project_template_image.jpg"} skills={["HTML", "CSS", "JavaScript", "Python", "Java", "Data Structures", "MERN Stack", "Django", "Design Patterns"]} projectName={"Personal Blog App using ReactJS and Appwrite as a backend service learned from hitesh choudhary"} description={"I have created a personal blog app in react"} liveLink={"Live"} github={"Github"}/>
       </div>
       <div className="w-44 border-2 border-white hidden lg:block"></div>
     </>
