@@ -1,7 +1,7 @@
 import React from "react";
 export default function Footer() {
     return (
-        <footer>
+        <footer className="mt-28">
             <hr className="border-[1px] border-[#ABB2BF]" />
             <div className="p-2 flex justify-around mt-5 mb-10">
                 <div>
@@ -9,7 +9,7 @@ export default function Footer() {
                     <img src="src/components/Footer/images/logo.svg" alt="logo" />
                     <p>Bhupender Kr. Sharma <span className="text-[#ABB2BF] mx-7">bkvats2394@gmail.com</span></p>
                 </div>
-                <p className="mt-3 font-light">Web designer and front-end developer</p>
+                <p className="mt-3 font-light">Web designer and full-stack developer</p>
                 </div>
                 <div>
                     <p className="font-semibold text-lg">Media</p>

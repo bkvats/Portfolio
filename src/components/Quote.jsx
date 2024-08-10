@@ -1,7 +1,7 @@
 import React from "react";
 export default function Quote() {
     return (
-        <div className="w-[56%] text-2xl  flex flex-col items-end mx-auto mt-24">
+        <div className="w-[60%] max-h-fit text-2xl  flex flex-col items-end mx-auto mt-24">
             <div className="border border-white  mt-2">
                 <p className="text-center p-2">With great power comes great electircity bill</p>
             </div>

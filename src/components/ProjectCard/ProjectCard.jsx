@@ -1,7 +1,7 @@
 import React from "react";
-export default function ProjectCard({imgUrl, skills, projectName, description, liveLink, github}) {
+export default function ProjectCard({imgUrl = "src/components/ProjectCard/images/project_template_image.jpg", skills, projectName, description, liveLink = "#", github = "#"}) {
     return (
-        <div className="w-1/4 border-2 border-white flex flex-col m-2">
+        <div className="w-1/4 h-fit border-2 border-white flex flex-col m-2">
             <div className="border-b-2 border-white">
                 <img src={imgUrl} alt="" />
             </div>
@@ -12,8 +12,8 @@ export default function ProjectCard({imgUrl, skills, projectName, description, l
                 <h3 className="my-2 text-xl font-semibold">{projectName}</h3>
                 <p className="text-[#ABB2BF]">{description}</p>
                 <div className="font-light mt-4 mb-2">
-                    <button className="border-2 border-[#C778DD] py-1 px-3">{liveLink + " <-> "}</button>
-                    <button className="border-2 border-[#ABB2BF] py-1 px-3 mx-2 text-[#ABB2BF]">{github + " # "}</button>
+                    <a href={liveLink} target="_blank" className="border-2 border-[#C778DD] py-1 px-3">{"Live <->"}</a>
+                    <a href={github} target="_blank" className="border-2 border-[#ABB2BF] py-1 px-3 mx-2 text-[#ABB2BF]">{"Github #"}</a>
                 </div>
             </div>
         </div>
