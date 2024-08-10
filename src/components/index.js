@@ -4,4 +4,6 @@ import Quote from "./Quote";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import SkillCard from "./SkillCard";
 import AboutMe from "./AboutMe/AboutMe";
-export {Header, Intro, Quote, ProjectCard, SkillCard, AboutMe};
+import ContactMe from "./ContactMe/ContactMe";
+import Footer from "./Footer/Footer";
+export {Header, Intro, Quote, ProjectCard, SkillCard, AboutMe, ContactMe, Footer};
