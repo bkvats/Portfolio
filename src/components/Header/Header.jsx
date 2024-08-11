@@ -21,9 +21,9 @@ export default function Header() {
     ];
     const [sideBurger, setSideBurger] = useState(false);
     return (
-        <header className="sticky top-0 bg-[#282C33] pb-2">
+        <header className="sticky top-0 bg-[#282C33] pb-2 shadow-md">
             <nav className="h-12 flex m-2 justify-between items-end">
-                <div className="flex gap-2">
+                <div className="ml-4 flex gap-2">
                     <img src="src/components/Header/images/logo.svg" alt="logo" />
                     <p>Bhupender Kr. Sharma</p>
                 </div>

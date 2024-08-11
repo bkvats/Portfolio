@@ -17,7 +17,7 @@ export default function Works() {
                 <ProjectCard imgUrl={"src/pages/Home/images/BSharmaBlogs.jpg"} skills={["HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM", "React-Redux", "Appwrite"]} projectName={"BSharma Blogs"} description={"My Personal Blogging Web Application"} liveLink={"https://bsharma-blogs.vercel.app"} github={"https://github.com/bkvats/PersonalBlogAppinReact"} />
                 <ProjectCard imgUrl={"src/pages/Home/images/MemoryGame.jpg"} skills={["HTML", "CSS", "JavaScript", "DOM Manupilation"]} projectName={"Memory Mania"} description={"A Single Page Gaming Application purely in JavaScript without using any external framework/library"} liveLink={"https://bkvats.github.io/MemoryGame/"} github={"https://github.com/bkvats/MemoryGame"} />
                 <ProjectCard skills={["MERN Stack", "Stock.io", "Appwrite", "HTML", "Tailwind-CSS"]} projectName={"Real-Time Chat Applications"} description={"Currently working on a real time messaging application using stock.io"} />
-                <ProjectCard skills={["Figma", "HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM"]} projectName={"Portfolio"} description={"You are using it currently."} github={"https://github.com/bkvats/Portfolio"} />
+                <ProjectCard imgUrl={"src/pages/Home/images/Portfolio.jpg"} skills={["Figma", "HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM"]} projectName={"Portfolio"} description={"You are using it currently."} github={"https://github.com/bkvats/Portfolio"} />
             </div>
             <div className="flex justify-between mt-14">
                 <div className="flex gap-2 items-center">
