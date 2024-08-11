@@ -1,5 +1,6 @@
 import React from "react";
 import { AboutMe, ContactMe, Intro, ProjectCard, Quote, SkillCard } from "../../components";
+import { Link } from "react-router-dom";
 export default function Home() {
     return (
         <>
@@ -9,16 +10,16 @@ export default function Home() {
                 <div className="flex justify-between">
                     <div className="flex gap-2 items-center">
                         <h2 className="font-semibold text-2xl text-white"><span className="text-[#C778DD]">#</span>projects</h2>
-                        <hr className="w-96 border-[1px] border-[#C778DD]" />
+                        <hr className="w-24 md:w-96 border-[1px] border-[#C778DD]" />
                     </div>
-                    <div>
-                        <p>{"View all -->"}</p>
+                    <div className="flex items-center">
+                        <Link to="/works">{"View all -->"}</Link>
                     </div>
                 </div>
                 <div className="min-w-full my-10 flex flex-wrap justify-evenly">
                     {/* imgUrl, skills, projectName, description, liveLink, github */}
-                    <ProjectCard imgUrl={"src/pages/Home/images/BSharmaBlogs.jpg"} skills={["HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM", "Appwrite"]} projectName={"BSharma Blogs"} description={"My Personal Blogging Web Application"} liveLink={"https://bsharma-blogs.vercel.app"} github={"https://github.com/bkvats/PersonalBlogAppinReact"} />
-                    <ProjectCard imgUrl={"src/pages/Home/images/MemoryGame.jpg"} skills={["HTML", "CSS", "JavaScript"]} projectName={"Memory Mania"} description={"A Single Page Gaming Application purely in JavaScript without using any external framework/library"} liveLink={"https://bkvats.github.io/MemoryGame/"} github={"https://github.com/bkvats/MemoryGame"} />
+                    <ProjectCard imgUrl={"src/pages/Home/images/BSharmaBlogs.jpg"} skills={["HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM", "React-Redux", "Appwrite"]} projectName={"BSharma Blogs"} description={"My Personal Blogging Web Application"} liveLink={"https://bsharma-blogs.vercel.app"} github={"https://github.com/bkvats/PersonalBlogAppinReact"} />
+                    <ProjectCard imgUrl={"src/pages/Home/images/MemoryGame.jpg"} skills={["HTML", "CSS", "JavaScript", "DOM Manupilation"]} projectName={"Memory Mania"} description={"A Single Page Gaming Application purely in JavaScript without using any external framework/library"} liveLink={"https://bkvats.github.io/MemoryGame/"} github={"https://github.com/bkvats/MemoryGame"} />
                     <ProjectCard skills={["Figma", "HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM"]} projectName={"Portfolio"} description={"You are using it currently."} github={"https://github.com/bkvats/Portfolio"} />
                 </div>
                 <div className="my-20">
@@ -29,10 +30,10 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="flex justify-evenly items-center">
-                        <div className="">
+                        <div className="hidden lg:block">
                             <img src="src/pages/Home/images/skills.svg" alt="skill image" />
                         </div>
-                        <div className="w-[50%] flex flex-wrap justify-evenly">
+                        <div className="w-full lg:w-[50%] mt-10 flex flex-wrap justify-evenly">
                             <SkillCard skillName={"Key Skills"} skillTools={["Data Structures", "Algorithms", "OOPs"]} />
                             <SkillCard skillName={"Programming Languages"} skillTools={["Java", "Python", "C"]} />
                             <SkillCard skillName={"Web Dev"} skillTools={["HTML", "CSS", "JavaScript", "TypeScript", "ReactJS", "NodeJs", "MERN Stack"]} />

@@ -3,20 +3,20 @@ export default function Footer() {
     return (
         <footer className="mt-28">
             <hr className="border-[1px] border-[#ABB2BF]" />
-            <div className="p-2 flex justify-around mt-5 mb-10">
+            <div className="p-2 flex justify-around mt-5 mb-10 flex-wrap">
                 <div>
-                <div className="flex gap-2">
-                    <img src="src/components/Footer/images/logo.svg" alt="logo" />
-                    <p>Bhupender Kr. Sharma <span className="text-[#ABB2BF] mx-7">bkvats2394@gmail.com</span></p>
-                </div>
-                <p className="mt-3 font-light">Web designer and full-stack developer</p>
-                </div>
-                <div>
-                    <p className="font-semibold text-lg">Media</p>
                     <div className="flex gap-2">
-                        <img src="src/components/Footer/images/x.svg" alt="" />
-                        <img src="src/components/Footer/images/linkedin.svg" alt="" />
-                        <img src="src/components/Footer/images/github.svg" alt="" />
+                        <img src="src/components/Footer/images/logo.svg" alt="logo" />
+                        <p>Bhupender Kr. Sharma <span className="text-[#ABB2BF] mx-7">bkvats2394@gmail.com</span></p>
+                    </div>
+                    <p className="mt-3 font-light hidden lg:block">Software Developer and Engineer</p>
+                </div>
+                <div className="flex flex-col items-center mt-10 lg:mt-0">
+                    <p className="font-semibold text-lg">Media</p>
+                    <div className="flex gap-2 items-center">
+                        <a href="https://x.com/BSharma10111" target="_blank"><img src="src/components/Footer/images/x.svg" alt="xlogo" className="hover:rounded-full hover:bg-slate-700 p-2" /></a>
+                        <a href="https://www.linkedin.com/in/bhupender-kumar-sharma-2a144a2a7/" target="_blank"><img src="src/components/Footer/images/linkedin.svg" alt="" className="hover:rounded-full hover:bg-slate-700 p-2" /></a>
+                        <a href="https://github.com/bkvats" target="_blank"><img src="src/components/Footer/images/github.svg" alt="" className="hover:rounded-full hover:bg-slate-700 p-2"/></a>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import React from "react";
 export default function ProjectCard({imgUrl = "src/components/ProjectCard/images/project_template_image.jpg", skills, projectName, description, liveLink = "#", github = "#"}) {
     return (
-        <div className="w-1/4 h-fit border-2 border-white flex flex-col m-2">
+        <div className="w-[330px] h-fit border-2 border-white flex flex-col m-2">
             <div className="border-b-2 border-white">
                 <img src={imgUrl} alt="" />
             </div>
