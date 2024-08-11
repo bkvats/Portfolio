@@ -21,17 +21,17 @@ export default function Header() {
     ];
     const [sideBurger, setSideBurger] = useState(false);
     return (
-        <header>
+        <header className="sticky top-0 bg-[#282C33] pb-2">
             <nav className="h-12 flex m-2 justify-between items-end">
                 <div className="flex gap-2">
                     <img src="src/components/Header/images/logo.svg" alt="logo" />
                     <p>Bhupender Kr. Sharma</p>
                 </div>
                 <div className={`hidden lg:block w-3/5`}>
-                    <ul className="w-full flex justify-around">
+                    <ul className="w-full flex justify-around text-lg">
                         {
                             links.map((item) => (
-                                <li key={item.name}><span className="text-[#C778DD]">#</span> <NavLink to = {item.to} className={({isActive}) => `hover:text-white ${isActive ? "" : "text-[#ABB2BF]"}`}>{item.name}</NavLink></li>
+                                <li key={item.name}> <NavLink to = {item.to} className={({isActive}) => `hover:text-white ${isActive ? "" : "text-[#ABB2BF]"}`}><span className="text-[#C778DD]">#</span>{item.name}</NavLink></li>
                             ))
                         }
                     </ul>
@@ -46,9 +46,9 @@ export default function Header() {
                     <ul className="w-full flex flex-col h-1/2 justify-evenly text-2xl">
                         {
                             links.map((item) => (
-                                <li key={item.name}><span className="text-[#C778DD]">#</span><NavLink to = {item.to} className={({isActive}) => `hover:text-white ${isActive ? "" : "text-[#ABB2BF]"}`} onClick={() => {
+                                <li key={item.name}><NavLink to = {item.to} className={({isActive}) => `hover:text-white ${isActive ? "" : "text-[#ABB2BF]"}`} onClick={() => {
                                     setSideBurger(false);
-                                }}>{item.name}</NavLink></li>
+                                }}><span className="text-[#C778DD]">#</span>{item.name}</NavLink></li>
                             ))
                         }
                     </ul>

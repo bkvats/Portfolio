@@ -1,7 +1,7 @@
 import React from "react";
 export default function Footer() {
     return (
-        <footer className="mt-28">
+        <footer className="mt-20">
             <hr className="border-[1px] border-[#ABB2BF]" />
             <div className="p-2 flex justify-around mt-5 mb-10 flex-wrap">
                 <div>

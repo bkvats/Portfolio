@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import "./index.css"
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
-import { AboutMe, Contact, Home, Works } from './pages/index.js'
+import { About, Contact, Home, Works } from './pages/index.js'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route path='' element={<Home />} />
       <Route path='works' element={<Works />} />
-      <Route path='about-me' element={<AboutMe />} />
+      <Route path='about-me' element={<About />} />
       <Route path='contacts' element={<Contact />} />
     </Route>
   )

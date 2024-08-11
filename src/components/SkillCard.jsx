@@ -1,5 +1,5 @@
 import React from "react";
-export default function SkillCard({skillName, skillTools}) {
+export default function SkillCard({skillName, skillTools = []}) {
     return (
         <div className="m-2 w-40 h-fit border-2 border-white">
             <div className="p-2 border-b-2 border-white">{skillName}</div>
