@@ -24,7 +24,7 @@ export default function Header() {
         <header className="sticky top-0 bg-[#282C33] pb-2 shadow-md">
             <nav className="h-12 flex m-2 justify-between items-end">
                 <div className="ml-4 flex gap-2">
-                    <img src="/public/components/Header/logo.svg" alt="logo" />
+                    <img src="/components/Header/logo.svg" alt="logo" />
                     <p>Bhupender Kr. Sharma</p>
                 </div>
                 <div className={`hidden lg:block w-3/5`}>
@@ -38,7 +38,7 @@ export default function Header() {
                 </div>
                 <div className={`block lg:hidden text-xl`} onClick={() => {
                     setSideBurger(true);
-                }}><img src = "/public/components/Header/sideBurger.svg" className="cursor-pointer"></img></div>
+                }}><img src = "/components/Header/sideBurger.svg" className="cursor-pointer"></img></div>
                 <div className={`${sideBurger ? "block" : "hidden"} w-full h-screen absolute top-0 bg-[#282C33]`}>
                     <button className="text-4xl m-2 cursor-pointer" onClick={() => {
                         setSideBurger(false);

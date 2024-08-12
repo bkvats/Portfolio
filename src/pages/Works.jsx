@@ -3,7 +3,7 @@ import { ProjectCard } from "../components";
 export default function Works() {
     const projects = [
         {
-            imgUrl: "/public/pages/Home/BSharmaBlogs.jpg",
+            imgUrl: "/pages/Home/BSharmaBlogs.jpg",
             skills: ["HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM", "React-Redux", "Appwrite"],
             projectName: "BSharma Blogs",
             description: "My Personal Blogging Web Application",
@@ -11,7 +11,7 @@ export default function Works() {
             github: "https://github.com/bkvats/PersonalBlogAppinReact"
         },
         {
-            imgUrl: "/public/pages/Home/MemoryGame.jpg",
+            imgUrl: "/pages/Home/MemoryGame.jpg",
             skills: ["HTML", "CSS", "JavaScript", "DOM Manupilation"],
             projectName: "Memory Mania",
             description: "A Single Page Gaming Application purely in JavaScript without using any external framework/library",
@@ -24,7 +24,7 @@ export default function Works() {
             description: "Currently working on a real time messaging application using stock.io",
         },
         {
-            imgUrl: "/public/pages/Home/Portfolio.jpg",
+            imgUrl: "/pages/Home/Portfolio.jpg",
             skills: ["Figma", "HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM"],
             projectName: "Portfolio",
             description: "You are using it currently.",

@@ -8,7 +8,7 @@ export default function AboutMe() {
                 <p>I bring a strong foundation in Data Structures and Algorithms combined with hands-on experience in full-stack web development. My approach to problem-solving involves a meticulous analysis of complex issues and a commitment to crafting efficient, scalable solutions. I thrive on translating intricate requirements into intuitive, user-friendly applications, leveraging my skills in both front-end and back-end technologies.</p>
             </div>
             <div>
-                <img className="rounded-full" src="/public/components/AboutMe/image.png" alt="about me" width={300} />
+                <img className="rounded-full" src="/components/AboutMe/image.png" alt="about me" width={300} />
             </div>
         </div>
     );
