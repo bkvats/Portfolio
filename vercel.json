@@ -15,10 +15,6 @@
         {
             "src" : "/contacts",
             "dest" : "/"
-        },
-        {
-            "src" : "src/components/Intro/images/bg-portfolioimage.jpg",
-            "dest" : "/"
         }
     ]
 }
