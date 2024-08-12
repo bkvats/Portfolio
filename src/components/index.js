@@ -1,10 +1,10 @@
-import Header from "./Header/Header";
-import Intro from "./Intro/Intro";
+import Header from "./Header";
+import Intro from "./Intro";
 import Quote from "./Quote";
-import ProjectCard from "./ProjectCard/ProjectCard";
+import ProjectCard from "./ProjectCard";
 import SkillCard from "./SkillCard";
-import AboutMe from "./AboutMe/AboutMe";
-import ContactMe from "./ContactMe/ContactMe";
-import Footer from "./Footer/Footer";
-import Skills from "./Skills/Skills";
+import AboutMe from "./AboutMe";
+import ContactMe from "./ContactMe";
+import Footer from "./Footer";
+import Skills from "./Skills";
 export {Header, Intro, Quote, ProjectCard, SkillCard, AboutMe, ContactMe, Footer, Skills};

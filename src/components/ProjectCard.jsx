@@ -1,5 +1,5 @@
 import React from "react";
-export default function ProjectCard({imgUrl = "src/components/ProjectCard/images/project_template_image.jpg", skills, projectName, description, liveLink = "#", github = "#"}) {
+export default function ProjectCard({imgUrl = "/public/components/ProjectCard/project_template_image.jpg", skills, projectName, description, liveLink = "#", github = "#"}) {
     return (
         <div className="w-[330px] h-fit border-2 border-white flex flex-col m-2">
             {imgUrl !== "mini" && <div className="border-b-2 border-white">

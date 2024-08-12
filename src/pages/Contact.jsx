@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactMe } from "../../components";
+import { ContactMe } from "../components";
 export default function Contact() {
     const allmedia = [
         {
@@ -39,7 +39,7 @@ export default function Contact() {
             <div className="mt-10 flex justify-center items-center gap-2">
                 {
                     allmedia.map((item) => (
-                        <a key={item.name} href={item.link} target="_blank"><img src={`src/pages/Contact/images/${item.name}.svg`} alt={item.name + " logo"} className="hover:rounded-full hover:bg-slate-700 p-2" /></a>
+                        <a key={item.name} href={item.link} target="_blank"><img src={`/public/pages/Contact/${item.name}.svg`} alt={item.name + " logo"} className="hover:rounded-full hover:bg-slate-700 p-2" /></a>
                     ))
                 }
             </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutMe, SkillCard, Skills } from "../../components";
+import { AboutMe, SkillCard, Skills } from "../components";
 export default function About() {
     const skills = [
         {
@@ -93,7 +93,7 @@ export default function About() {
                             }
                         </div>
                         <div className="hidden lg:block">
-                            <img src="src/pages/Home/images/facts.svg" alt="skill image" width={250} />
+                            <img src="/public/pages/About/facts.svg" alt="skill image" width={250} />
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ export default function About() {
                     </div>
                     <div className="flex justify-evenly items-center">
                         <div className="mt-10 hidden lg:block">
-                            <img src="src/pages/Home/images/skills.svg" alt="skill image" />
+                            <img src="/public/pages/About/skills.svg" alt="skill image" />
                         </div>
                         <div className="w-full lg:w-[50%] mt-10 flex flex-wrap justify-evenly">
                             {

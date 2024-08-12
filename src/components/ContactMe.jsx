@@ -8,7 +8,7 @@ export default function ContactMe() {
             <div className="border-[1px] border-white p-2 h-20 self-end">
                 <p>Message me here</p>
                 <div className="flex gap-1 items-center text-[#ABB2BF]">
-                    <img src="src/components/ContactMe/images/email.svg" alt="" />
+                    <img src="/public/components/ContactMe/email.svg" alt="" />
                     <p>bkvats2394@gmail.com</p>
                 </div>
             </div>
