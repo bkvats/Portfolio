@@ -38,9 +38,9 @@ export default function Header() {
                 </div>
                 <div className={`block lg:hidden text-xl`} onClick={() => {
                     setSideBurger(true);
-                }}><img src = "src/components/Header/images/sideBurger.svg"></img></div>
+                }}><img src = "src/components/Header/images/sideBurger.svg" className="cursor-pointer"></img></div>
                 <div className={`${sideBurger ? "block" : "hidden"} w-full h-screen absolute top-0 bg-[#282C33]`}>
-                    <button className="text-4xl m-2" onClick={() => {
+                    <button className="text-4xl m-2 cursor-pointer" onClick={() => {
                         setSideBurger(false);
                     }}>x</button>
                     <ul className="w-full flex flex-col h-1/2 justify-evenly text-2xl">

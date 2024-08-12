@@ -12,8 +12,12 @@ export default function ProjectCard({imgUrl = "src/components/ProjectCard/images
                 <h3 className="my-2 text-xl font-semibold">{projectName}</h3>
                 <p className="text-[#ABB2BF]">{description}</p>
                 <div className="font-light mt-4 mb-2">
-                    <a href={liveLink === "mini" ? github : liveLink} target="_blank" className={`border-2 border-[#C778DD] py-1 px-3 ${liveLink === "#" ? "cursor-not-allowed" : ""}`}>{`${liveLink === "mini" ?"Github #" : "Live <->"}`}</a>
-                    {liveLink !== "mini" && <a href={github} target="_blank" className={`border-2 border-[#ABB2BF] py-1 px-3 mx-2 text-[#ABB2BF] ${github === "#" ? "cursor-not-allowed" : ""}`}>{"Github #"}</a>}
+                    <a href={liveLink === "mini" ? github : liveLink} target="_blank" className={`border-2 border-[#C778DD] py-1 px-3 ${liveLink === "#" ? "cursor-not-allowed" : ""}`} onClick={(event) => {
+                        if (liveLink === "#") event.preventDefault();
+                    }}>{`${liveLink === "mini" ?"Github #" : "Live <->"}`}</a>
+                    {liveLink !== "mini" && <a href={github} target="_blank" className={`border-2 border-[#ABB2BF] py-1 px-3 mx-2 text-[#ABB2BF] ${github === "#" ? "cursor-not-allowed" : ""}`}onClick={(event) => {
+                        if (liveLink === "#") event.preventDefault();
+                    }}>{"Github #"}</a>}
                 </div>
             </div>
         </div>

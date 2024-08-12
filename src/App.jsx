@@ -7,12 +7,12 @@ function App() {
     window.scroll(0, 0);
   }, [pathname]);
   return (
-    <div className="w-screen lg:w-5/6 m-auto">
+    <main className="w-screen px-2 lg:w-5/6 m-auto">
       <Header />
       <Outlet />
       <Footer />
-    </div>
+    </main>
   )
 }
 
-export default App
+export default App;
