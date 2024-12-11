@@ -20,7 +20,7 @@ export default function Home() {
             github: "https://github.com/bkvats/MemoryGame",
         },
         {
-            imgUrl: "/pages/Home/Portfolio.jpg",
+            imgUrl: "/pages/Home/NanoShare.jpg",
             skills: ["Figma", "HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM"],
             projectName: "Portfolio",
             description: "You are using it currently.",
