@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 export default function Header() {
     const links = [
         {
@@ -23,10 +23,10 @@ export default function Header() {
     return (
         <header className="sticky top-0 bg-[#282C33] pb-2 shadow-md">
             <nav className="h-12 flex m-2 justify-between items-end">
-                <div className="ml-4 flex gap-2">
+                <Link className="ml-4 flex gap-2">
                     <img src="/components/Header/logo.svg" alt="logo" />
                     <p>Bhupender Kr. Sharma</p>
-                </div>
+                </Link>
                 <div className={`hidden lg:block w-3/5`}>
                     <ul className="w-full flex justify-around text-lg">
                         {
