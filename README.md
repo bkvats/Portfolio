@@ -1,10 +1,10 @@
 # Portfolio Website 🌐
-
+## Live Link: https://bsharma.vercel.app
 Welcome to my portfolio website! This repository contains the source code for my personal portfolio, showcasing my skills, projects, and experience as a **Full Stack Software Developer**.
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** [React.js/HTML, CSS, JavaScript, etc.]
+- **Frontend:** [React.js, React-Router-DOM/HTML, CSS, JavaScript, etc.]
 - **Styling:** [Tailwind CSS/SVG Icons, etc.]
 - **Hosting:** [Vercel]
 - **Version Control:** Git & GitHub
