@@ -3,6 +3,14 @@ import { ProjectCard } from "../components";
 export default function Works() {
     const projects = [
         {
+            imgUrl: "/pages/Home/NanoShare.jpg",
+            skills: ["WebRTC", "Socket.io", "NodeJS", "ExpressJS", "ReactJS", "React-Redux", "React-Router-DOM", "Tailwind-CSS", "JavaScript"],
+            projectName: "NanoShare",
+            description: "A a Peer-to-Peer file transfer system for secure, high-speed file sharing with no storage limitations, enabling direct device-to-device connections.",
+            liveLink: "https://nanoshare.vercel.app",
+            github: "https://github.com/bkvats/Nanoshare",
+        },
+        {
             imgUrl: "/pages/Home/BSharmaBlogs.jpg",
             skills: ["HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM", "React-Redux", "Appwrite"],
             projectName: "BSharma Blogs",
@@ -19,17 +27,17 @@ export default function Works() {
             github: "https://github.com/bkvats/MemoryGame",
         },
         {
-            skills: ["MERN Stack", "Stock.io", "Appwrite", "HTML", "Tailwind-CSS"],
-            projectName: "Real-Time Chat Application",
-            description: "Currently working on a real time messaging application using stock.io",
-        },
-        {
             imgUrl: "/pages/Home/Portfolio.jpg",
             skills: ["Figma", "HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM"],
             projectName: "Portfolio",
             description: "You are using it currently.",
             liveLink: "",
             github: "https://github.com/bkvats/Portfolio",
+        },
+        {
+            skills: ["MERN Stack", "Stock.io", "Appwrite", "HTML", "Tailwind-CSS"],
+            projectName: "Real-Time Chat Application",
+            description: "Currently working on a real time messaging application using stock.io",
         }
     ];
     const miniProjects = [

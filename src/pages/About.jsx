@@ -4,11 +4,15 @@ export default function About() {
     const skills = [
         {
             skillName: "Programming Languages",
-            skillTools: ["Java", "Python", "C"]
+            skillTools: ["Java", "Python", "JavaScript", "TypeScript"]
         },
         {
-            skillName: "Key Skills",
-            skillTools: ["Data Structures", "Algorithms", "OOPs"]
+            skillName: "Core Competencies",
+            skillTools: ["Data Structures & Algorithms", "Object-Oriented Programming (OOP)", "REST APIs"]
+        },
+        {
+            skillName: "Frameworks & Libraries",
+            skillTools: ["ReactJS", "ExpressJS", "NodeJS"]
         },
         {
             skillName: "Databases",
@@ -16,11 +20,7 @@ export default function About() {
         },
         {
             skillName: "CSE Foundationals",
-            skillTools: ["Operating Systems", "Computer Networks"]
-        },
-        {
-            skillName: "Web Dev",
-            skillTools: ["HTML", "CSS", "JavaScript", "TypeScript", "ReactJS", "NodeJs", "MERN Stack"]
+            skillTools: ["Computer Networks", "Operating Systems"]
         },
         {
             skillName: "Additional Skills & Tools",
@@ -32,16 +32,16 @@ export default function About() {
             skillName: "10 Coursera Certifications in various fields recommended  by AKTU",
         },
         {
-            skillName: "⭐⭐⭐⭐⭐ Stars on Hacker Rank.",
+            skillName: "⭐⭐⭐⭐⭐ Stars on HackerRank with 530+ Hackos.",
         },
         {
             skillName: "LeetCode’s 50 Days Badge 2024 Holder (awarded to 6.9% of LeetCode Competitors)",
         },
         {
-            skillName: "Successfully solved more than 265+ problems on GFG (GeeksForGeeks) with 800+ points",
+            skillName: "Successfully solved more than 290+ problems on GFG (GeeksForGeeks) with 900+ points",
         },
         {
-            skillName: "Successfully solved more than 180+ problems on LeetCode",
+            skillName: "Successfully solved more than 230+ problems on LeetCode",
         },
     ];
     const facts = [

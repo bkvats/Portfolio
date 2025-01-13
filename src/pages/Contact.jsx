@@ -3,6 +3,14 @@ import { ContactMe } from "../components";
 export default function Contact() {
     const allmedia = [
         {
+            link: "https://github.com/bkvats",
+            name: "github"
+        },
+        {
+            link: "https://www.linkedin.com/in/bhupender-kumar-sharma-2a144a2a7/",
+            name: "linkedin"
+        },
+        {
             link: "https://x.com/BSharma10111",
             name: "x"
         },
@@ -11,16 +19,12 @@ export default function Contact() {
             name: "leetcode"
         },
         {
-            link: "https://www.linkedin.com/in/bhupender-kumar-sharma-2a144a2a7/",
-            name: "linkedin"
-        },
-        {
-            link: "https://github.com/bkvats",
-            name: "github"
-        },
-        {
             link: "https://www.geeksforgeeks.org/user/bkvatsnx6l/",
             name: "gfg"
+        },
+        {
+            link: "https://www.hackerrank.com/profile/bkvats2394",
+            name: "hackerrank"
         }
     ]
     return (

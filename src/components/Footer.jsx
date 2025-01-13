@@ -14,9 +14,9 @@ export default function Footer() {
                 <div className="flex flex-col items-center mt-10 lg:mt-0">
                     <p className="font-semibold text-lg">Media</p>
                     <div className="flex gap-2 items-center">
-                        <a href="https://x.com/BSharma10111" target="_blank"><img src="/components/Footer/x.svg" alt="xlogo" className="hover:rounded-full hover:bg-slate-700 p-2" /></a>
-                        <a href="https://www.linkedin.com/in/bhupender-kumar-sharma-2a144a2a7/" target="_blank"><img src="/components/Footer/linkedin.svg" alt="" className="hover:rounded-full hover:bg-slate-700 p-2" /></a>
                         <a href="https://github.com/bkvats" target="_blank"><img src="/components/Footer/github.svg" alt="" className="hover:rounded-full hover:bg-slate-700 p-2"/></a>
+                        <a href="https://www.linkedin.com/in/bhupender-kumar-sharma-2a144a2a7/" target="_blank"><img src="/components/Footer/linkedin.svg" alt="" className="hover:rounded-full hover:bg-slate-700 p-2" /></a>
+                        <a href="https://leetcode.com/u/bkvats/" target="_blank"><img src="/components/Footer/leetcode.svg" alt="xlogo" className="hover:rounded-full hover:bg-slate-700 p-2" /></a>
                     </div>
                 </div>
             </div>

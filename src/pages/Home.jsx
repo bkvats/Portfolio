@@ -12,34 +12,34 @@ export default function Home() {
             github: "https://github.com/bkvats/PersonalBlogAppinReact"
         },
         {
+            imgUrl: "/pages/Home/NanoShare.jpg",
+            skills: ["WebRTC", "Socket.io", "NodeJS", "ExpressJS", "ReactJS", "React-Redux", "React-Router-DOM", "Tailwind-CSS", "JavaScript"],
+            projectName: "NanoShare",
+            description: "A a Peer-to-Peer file transfer system for secure, high-speed file sharing with no storage limitations, enabling direct device-to-device connections.",
+            liveLink: "https://nanoshare.vercel.app",
+            github: "https://github.com/bkvats/Nanoshare",
+        },
+        {
             imgUrl: "/pages/Home/MemoryGame.jpg",
             skills: ["HTML", "CSS", "JavaScript", "DOM Manupilation"],
             projectName: "Memory Mania",
             description: "A Single Page Gaming Application purely in JavaScript without using any external framework/library",
             liveLink: "https://bkvats.github.io/MemoryGame/",
             github: "https://github.com/bkvats/MemoryGame",
-        },
-        {
-            imgUrl: "/pages/Home/NanoShare.jpg",
-            skills: ["Figma", "HTML", "Tailwind-CSS", "ReactJS", "React-Router-DOM"],
-            projectName: "Portfolio",
-            description: "You are using it currently.",
-            liveLink: "",
-            github: "https://github.com/bkvats/Portfolio",
         }
     ];
     const skills = [
         {
             skillName: "Programming Languages",
-            skillTools: ["Java", "Python", "C"]
+            skillTools: ["Java", "Python", "JavaScript", "TypeScript"]
         },
         {
-            skillName: "Web Dev",
-            skillTools: ["HTML", "CSS", "JavaScript", "TypeScript", "ReactJS", "NodeJs", "MERN Stack"]
+            skillName: "Core Competencies",
+            skillTools: ["Data Structures & Algorithms", "Object-Oriented Programming (OOP)", "REST APIs"]
         },
         {
-            skillName: "Key Skills",
-            skillTools: ["Data Structures", "Algorithms", "OOPs"]
+            skillName: "Frameworks & Libraries",
+            skillTools: ["ReactJS", "ExpressJS", "NodeJS"]
         },
         {
             skillName: "Databases",
@@ -47,7 +47,7 @@ export default function Home() {
         },
         {
             skillName: "CSE Foundationals",
-            skillTools: ["Operating Systems", "Computer Networks"]
+            skillTools: ["Computer Networks", "Operating Systems"]
         },
         {
             skillName: "Additional Skills & Tools",
