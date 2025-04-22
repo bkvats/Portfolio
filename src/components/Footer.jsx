@@ -20,7 +20,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="text-center text-[#ABB2BF] font-light mb-4">© Copyright 2024. Made by Bhupender</div>
+            <div className="text-center text-[#ABB2BF] font-light mb-4">© Copyright 2025. Made by Bhupender</div>
         </footer>
     );
 }
