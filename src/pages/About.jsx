@@ -7,24 +7,20 @@ export default function About() {
             skillTools: ["Java", "Python", "JavaScript", "TypeScript"]
         },
         {
-            skillName: "Core Competencies",
-            skillTools: ["Data Structures & Algorithms", "Object-Oriented Programming (OOP)", "REST APIs"]
+            skillName: "Core Fundamentals",
+            skillTools: ["Data Structures & Algorithms", "System Design", "Object-Oriented Programming (OOP)", "REST APIs"]
         },
         {
             skillName: "Frameworks & Libraries",
-            skillTools: ["ReactJS", "ExpressJS", "NodeJS"]
+            skillTools: ["React.js", "Redux", "Express.js", "Node.js"]
+        },
+        {
+            skillName: "Additional Skills & Tools",
+            skillTools: ["VSCode", "Git", "Github", "Linux", "WebRTC", "PostMan", "Vercel", "Adobe Photoshop"]
         },
         {
             skillName: "Databases",
             skillTools: ["MySQL", "MongoDB"]
-        },
-        {
-            skillName: "CSE Foundationals",
-            skillTools: ["Computer Networks", "Operating Systems"]
-        },
-        {
-            skillName: "Additional Skills & Tools",
-            skillTools: ["VSCode", "Git", "Github", "Linux", "Adobe Photoshop", "WonderShare Filmora"]
         }
     ];
     const achievements = [
@@ -32,16 +28,16 @@ export default function About() {
             skillName: "10 Coursera Certifications in various fields recommended  by AKTU",
         },
         {
-            skillName: "⭐⭐⭐⭐⭐ Stars on HackerRank with 530+ Hackos.",
+            skillName: "⭐⭐⭐⭐⭐ Stars on HackerRank with 600+ Hackos.",
         },
         {
-            skillName: "LeetCode’s 50 Days Badge 2024 Holder (awarded to 6.9% of LeetCode Competitors)",
+            skillName: "LeetCode’s Problem Solver Badge 2024 Holder (awarded to top 7% of LeetCode Competitors)",
         },
         {
-            skillName: "Successfully solved more than 290+ problems on GFG (GeeksForGeeks) with 900+ points",
+            skillName: "Successfully solved more than 300+ problems on GFG (GeeksForGeeks) with 1000+ points",
         },
         {
-            skillName: "Successfully solved more than 230+ problems on LeetCode",
+            skillName: "Successfully solved more than 270+ problems on LeetCode",
         },
     ];
     const facts = [
