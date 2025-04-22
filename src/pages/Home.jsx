@@ -34,24 +34,20 @@ export default function Home() {
             skillTools: ["Java", "Python", "JavaScript", "TypeScript"]
         },
         {
-            skillName: "Core Competencies",
-            skillTools: ["Data Structures & Algorithms", "Object-Oriented Programming (OOP)", "REST APIs"]
+            skillName: "Core Fundamentals",
+            skillTools: ["Data Structures & Algorithms", "System Design", "Object-Oriented Programming (OOP)", "REST APIs"]
         },
         {
             skillName: "Frameworks & Libraries",
-            skillTools: ["ReactJS", "ExpressJS", "NodeJS"]
+            skillTools: ["React.js", "Redux", "Express.js", "Node.js"]
         },
         {
             skillName: "Databases",
             skillTools: ["MySQL", "MongoDB"]
         },
         {
-            skillName: "CSE Foundationals",
-            skillTools: ["Computer Networks", "Operating Systems"]
-        },
-        {
             skillName: "Additional Skills & Tools",
-            skillTools: ["VSCode", "Git", "Github", "Linux", "Adobe Photoshop", "WonderShare Filmora"]
+            skillTools: ["VSCode", "Git", "Github", "Linux", "WebRTC", "PostMan", "Vercel", "Adobe Photoshop"]
         }
     ];
     return (
