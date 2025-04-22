@@ -42,12 +42,12 @@ export default function Home() {
             skillTools: ["React.js", "Redux", "Express.js", "Node.js"]
         },
         {
-            skillName: "Databases",
-            skillTools: ["MySQL", "MongoDB"]
-        },
-        {
             skillName: "Additional Skills & Tools",
             skillTools: ["VSCode", "Git", "Github", "Linux", "WebRTC", "PostMan", "Vercel", "Adobe Photoshop"]
+        },
+        {
+            skillName: "Databases",
+            skillTools: ["MySQL", "MongoDB"]
         }
     ];
     return (
