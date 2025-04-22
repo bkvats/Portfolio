@@ -50,6 +50,23 @@ export default function Home() {
             skillTools: ["MySQL", "MongoDB"]
         }
     ];
+    const achievements = [
+        {
+            skillName: "10 Coursera Certifications in various fields recommended  by AKTU",
+        },
+        {
+            skillName: "⭐⭐⭐⭐⭐ Stars on HackerRank with 600+ Hackos.",
+        },
+        {
+            skillName: "LeetCode’s Problem Solver Badge 2024 Holder (awarded to top 7% of LeetCode Competitors)",
+        },
+        {
+            skillName: "Successfully solved more than 300+ problems on GFG (GeeksForGeeks) with 1000+ points",
+        },
+        {
+            skillName: "Successfully solved more than 270+ problems on LeetCode",
+        },
+    ];
     return (
         <>
             <Intro />
@@ -80,11 +97,26 @@ export default function Home() {
                     </div>
                     <Skills skills={skills} />
                 </div>
-                <div className="flex gap-2 items-center mt-14">
-                    <h2 className="font-semibold text-2xl text-white"><span className="text-[#C778DD]">#</span>about me</h2>
-                    <hr className="w-44 border-[1px] border-[#C778DD]" />
+                <div className="my-20">
+                    <div className="flex justify-between">
+                        <div className="flex gap-2 items-center">
+                            <h2 className="font-semibold text-2xl text-white"><span className="text-[#C778DD]">#</span>achievements</h2>
+                            <hr className="w-32 border-[1px] border-[#C778DD]" />
+                        </div>
+                    </div>
+                    <div className="flex justify-evenly items-center">
+                        <div className="w-full lg:w-[50%] mt-10 flex flex-wrap justify-evenly">
+                            {
+                                achievements.map((item) => (
+                                    <SkillCard key={item.skillName} {...item} />
+                                ))
+                            }
+                        </div>
+                        <div className="hidden lg:block">
+                            <img src="/pages/About/facts.svg" alt="skill image" width={250} />
+                        </div>
+                    </div>
                 </div>
-                <AboutMe />
                 <div className="flex gap-2 items-center mt-14">
                     <h2 className="font-semibold text-2xl text-white"><span className="text-[#C778DD]">#</span>contact me</h2>
                     <hr className="w-44 border-[1px] border-[#C778DD]" />
